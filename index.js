@@ -3,6 +3,7 @@ import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com
 
 const appSettings = {
     databaseURL: "https://realtime-database-d30b2-default-rtdb.firebaseio.com/"
+}
 
 const app = initializeApp(appSettings)
 const database = getDatabase(app)
